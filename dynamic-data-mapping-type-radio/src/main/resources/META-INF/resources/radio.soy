@@ -42,7 +42,7 @@
 			{/if}
 		{/if}
 
-		<div class="clearfix radio radio-options">
+		<div class="clearfix radio radio-options {$inline ? ' radio-options-inline' : ''}">
 			{foreach $option in $options}
 				{if not $inline}
 					<div class="radio">
